@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+   
+}
+
+table {
+    width: 80%;
+    
+    background-color: whitesmoke;
+    
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+button {
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+button.view {
+    background-color: green;
+}
+
+button.update {
+    background-color: orange;
+}
+
+button.delete {
+    background-color: red;
+}
+
+button:hover {
+    opacity: 0.8;
+}

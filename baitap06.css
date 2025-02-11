@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+p {
+    font-size: 1.2em;
+    color: black;
+}
+
+code {
+    background-color:white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: red;
+}
+
+.center-box {
+    text-align: center;
+    border: 3px solid green;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: black;
+}
+
+.example-section {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: black;
+}
+
+.code-box {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.try-button {
+    color: whitesmoke;
+    background-color: green;
+}
+
+.try-button:hover {
+    background-color: green;
+}
